@@ -32,6 +32,7 @@ section#login {
     box-shadow: 0px 0px 10px rgba(22, 16, 16, 0.863);
     transition: width 1s, height 1s;
     -o-transition-timing-function: ease;
+   
 }
 
 section#login > div#imagem {
@@ -53,4 +54,7 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+}
+div.campo {
+    display: inline-block;
 }
